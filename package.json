@@ -1,0 +1,27 @@
+{
+  "name": "agraddy.jefe",
+  "version": "0.0.1",
+  "description": "A command line tool for running node scripts.",
+  "preferGlobal": "true",
+  "main": "index.js",
+  "bin": {
+    "jefej": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/agraddy/agraddy.jefe.git"
+  },
+  "author": "Anthony Graddy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agraddy/agraddy.jefe/issues"
+  },
+  "homepage": "https://github.com/agraddy/agraddy.jefe#readme",
+  "dependencies": {
+    "async": "^2.0.1",
+    "homedir": "^0.6.0"
+  }
+}
